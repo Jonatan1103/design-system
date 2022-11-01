@@ -6,7 +6,7 @@ export default {
   component: Avatar,
   args: {
     src: 'https://github.com/jonatan1103.png',
-    alt: 'Jonatan Timóteo'
+    alt: 'Jonatan Timóteo',
   },
 } as Meta<AvatarProps>
 
@@ -15,5 +15,5 @@ export const Primary: StoryObj<AvatarProps> = {}
 export const WithFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
-  }
+  },
 }
