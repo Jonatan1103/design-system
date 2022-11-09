@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/jonatan1103.png',
     alt: 'Jonatan Timóteo',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
